@@ -1,0 +1,98 @@
+body{
+    background-color: white;
+    margin:0px;
+    color: orange;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content{
+    margin: 6px auto 0px auto;
+    width: 40%;
+    background-color: white;
+    border-radius: 90px;
+    padding: 0px 10px 10px 10px;
+    border: solid #209781 6px;
+    text-align: center;
+    min-height: 620px;
+}
+h1{
+    padding: 5px 10px 0px 10px;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+#container{
+    font-size: 50px;
+    margin: 5px;
+}
+.item{
+    display: inline-block;
+    min-width: 76px;
+    min-height: 76px;
+    text-align: center;
+    border-radius: 20px;
+    border: #209781 4px solid;
+    background-color: #209781;
+    color: #209781;
+    cursor: pointer;
+    filter: brightness(70%);
+    transition: all .3s ease-in-out;
+    margin: 5px;
+}
+
+#additionalData{
+    float: left;
+    width: 40%;
+    text-align: left;
+    font-weight: 800;
+    margin-left: 40px;
+}
+
+#button{
+    font-weight: 900;
+    text-align: center;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 3px solid #209781;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+#button:hover{
+    color: white;
+    background-color: #209781;
+}
+
+.item:hover{
+    border: orange 4px solid;
+    filter: brightness(100%)
+}
+
+.itemA{
+    display: inline-block;
+    min-width: 76px;
+    min-height: 76px;
+    text-align: center;
+    border-radius: 20px;
+    border: orange 4px solid;
+    background-color: #209781;
+    color: #209781;
+    cursor: default;
+    filter: brightness(100%);
+    transition: all .3s ease-in-out;
+    margin: 5px;
+}
+
+.add{
+    float: left;
+    width: 100%;
+    text-align: left;
+    font-weight: 800;
+    margin-left: 40px;
+}
+
